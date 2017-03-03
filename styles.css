@@ -1,0 +1,111 @@
+html
+{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body
+{
+	margin: 1px;
+	padding: 1px;
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+	transition: all .5s ease;
+}
+
+a:hover
+{
+	color: #AF001F;
+}
+
+nav
+{
+	padding: 1% 2%;
+	padding-bottom: 20px;
+}
+
+nav > table
+{
+	width: 100%;
+}
+
+.banner
+{
+	height: 400px;
+	position: relative;
+}
+
+.announcement
+{
+	padding: 0 30px 10px 30px;
+	background: rgba(255,255,255,.8);
+	width: 40%;
+	margin: 0;
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
+
+.announcement
+h5
+{
+	color: #303030;
+	font-size: 1.3em;
+}
+
+.announcement
+p
+{
+	font-size: .9em;
+}
+
+.announcement
+small
+{
+	font-size: .7em;
+}
+
+/* NAV */
+
+#cmu-logo
+{
+	width: 300px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+#nav-contact-info
+{
+	float: right;
+	list-style: none;
+	margin-top: 5px;
+	color: #808080;
+}
+
+#nav-contact-info
+li
+{
+	display: inline-block;
+	margin: 0 15px 0 15px;
+}
+
+#nav-contact-info
+li:after
+{
+	content: "|";
+}
+
+#home-banner
+{
+	background-image: url(./images/test-banner.jpg);
+	background-size: cover;
+	background-position: 50%
+}
+
+
+
+
+
