@@ -9,6 +9,11 @@ body
 	padding: 1px;
 }
 
+*
+{
+	max-width: 100% !important;
+}
+
 a
 {
 	text-decoration: none;
@@ -23,13 +28,17 @@ a:hover
 
 nav
 {
-	padding: 1% 2%;
-	padding-bottom: 20px;
+	padding: 1% 2% 1% 2%;
+	padding-bottom: 60px;
 }
 
 nav > table
 {
-	width: 100%;
+	border-collapse:separate; 
+	border-spacing: .6em;
+	width: 50%;
+	table-layout: fixed;
+	text-align: right;
 }
 
 .banner
@@ -53,21 +62,7 @@ nav > table
 h5
 {
 	color: #303030;
-	font-size: 1.3em;
 }
-
-.announcement
-p
-{
-	font-size: .9em;
-}
-
-.announcement
-small
-{
-	font-size: .7em;
-}
-
 /* NAV */
 
 #cmu-logo
