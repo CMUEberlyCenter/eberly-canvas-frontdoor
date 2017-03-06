@@ -26,10 +26,17 @@ a:hover
 	color: #AF001F;
 }
 
+/* NAV STYLES */
+
+#cmu-logo
+{
+	padding-top: 2.5%;
+}
+
 nav
 {
 	padding: 1% 2% 1% 2%;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 nav > table

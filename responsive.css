@@ -1,6 +1,11 @@
 
 @media screen and (max-width: 968px) {
 
+	td
+	{
+		display: block;
+	}
+
 	nav
 	{
 		padding-top: 30px;
@@ -15,16 +20,15 @@
 	#cmu-logo,
 	#nav-contact-info
 	{
-		display: block;
+		width: 100%;
 		float: none;
 		padding: 0;
 	}
 
 	#nav-contact-info
-	li
+	td
 	{
-		display: block;
-		margin-left: 0;
+		text-align: center;
 	}
 
 	.announcement
