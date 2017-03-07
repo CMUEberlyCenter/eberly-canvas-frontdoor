@@ -18,7 +18,7 @@ a
 {
 	text-decoration: none;
 	color: inherit;
-	transition: all .5s ease;
+	transition: all .2s ease;
 }
 
 a:hover
@@ -28,15 +28,9 @@ a:hover
 
 /* NAV STYLES */
 
-#cmu-logo
-{
-	padding-top: 2.5%;
-}
-
 nav
 {
-	padding: 1% 2% 1% 2%;
-	padding-bottom: 30px;
+	padding-bottom: 2%;
 }
 
 nav > table
@@ -72,32 +66,31 @@ h5
 }
 /* NAV */
 
+
+#nav-buttons
+{
+	list-style: none;
+	width: 90%;
+	padding: 0;
+	display: inline-block;
+	text-align: right;
+	margin: 0 5%;
+}
+
+
+#nav-buttons
+li
+{
+	padding-top: 20px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
 #cmu-logo
 {
 	width: 300px;
-	margin-top: 5px;
+	float: left;
 	display: inline-block;
-}
-
-#nav-contact-info
-{
-	float: right;
-	list-style: none;
-	margin-top: 5px;
-	color: #808080;
-}
-
-#nav-contact-info
-li
-{
-	display: inline-block;
-	margin: 0 15px 0 15px;
-}
-
-#nav-contact-info
-li:after
-{
-	content: "|";
 }
 
 #home-banner
@@ -107,7 +100,46 @@ li:after
 	background-position: 50%
 }
 
+/* MAIN */
 
+main table
+{
+	table-layout: fixed;
+	width: 100%;
+	padding: 2% 10%;
+}
+
+main table td
+{
+	padding: 3%;
+}
+
+
+/* FOOTER */
+
+footer
+{
+	background-color: #333;
+	color: rgba(255,255,255,.5);
+}
+
+footer table
+{
+	width: 100%;
+	margin: 0 auto;
+	padding: 1% 2%;
+	table-layout: fixed;
+}
+
+footer ul
+{
+	list-style: none;
+}
+
+footer td
+{
+	vertical-align: top;
+}
 
 
 

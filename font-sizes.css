@@ -3,7 +3,7 @@ h5
 	font-size: calc(11px + .7vw);
 }
 
-p
+a, p
 {
 	font-size: calc(9px + .5vw);
 }

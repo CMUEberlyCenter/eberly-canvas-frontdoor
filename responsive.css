@@ -17,18 +17,11 @@
 		width: 100%;
 	}
 
-	#cmu-logo,
-	#nav-contact-info
+	#cmu-logo
 	{
 		width: 100%;
 		float: none;
 		padding: 0;
-	}
-
-	#nav-contact-info
-	td
-	{
-		text-align: center;
 	}
 
 	.announcement
