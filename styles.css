@@ -28,11 +28,6 @@ a:hover
 
 /* NAV STYLES */
 
-nav
-{
-	padding-bottom: 2%;
-}
-
 nav > table
 {
 	border-collapse:separate; 
@@ -64,6 +59,8 @@ h5
 {
 	color: #303030;
 }
+
+
 /* NAV */
 
 
@@ -81,13 +78,14 @@ h5
 #nav-buttons
 li
 {
-	padding-top: 20px;
+	padding-top: 25px;
 	margin-top: 10px;
 	display: inline-block;
 }
 
 #cmu-logo
 {
+	padding-top: 0 !important;
 	width: 300px;
 	float: left;
 	display: inline-block;
@@ -121,6 +119,20 @@ footer
 {
 	background-color: #333;
 	color: rgba(255,255,255,.5);
+}
+
+footer
+#copyright
+{
+	background: url("./images/logo-backdrop.png") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+footer
+#copyright
+{
+	vertical-align: bottom;
 }
 
 footer table
