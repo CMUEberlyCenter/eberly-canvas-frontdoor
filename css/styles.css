@@ -51,7 +51,7 @@ nav > table
 	margin: 0;
 	position: absolute;
 	bottom: 30px;
-	left: 30px;
+	left: 3%;
 }
 
 .announcement
@@ -93,12 +93,38 @@ li
 
 #home-banner
 {
-	background-image: url(./images/test-banner.jpg);
+	background-image: url(../images/test-banner.jpg);
 	background-size: cover;
 	background-position: 50%
 }
 
 /* MAIN */
+
+section
+{
+	padding: 2%;
+}
+
+#contact-info
+{
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-bottom: 50px;
+}
+
+#contact-info h2
+{
+	margin-bottom: 40px;
+}
+
+#contact-info ul
+{
+	margin: 0 40% auto;
+	padding: 0;
+	width: 20%;
+	text-align: left;
+	list-style: none;
+}
 
 main table
 {
@@ -124,7 +150,7 @@ footer
 footer
 #copyright
 {
-	background: url("./images/logo-backdrop.png") no-repeat;
+	background: url("../images/logo-backdrop.png") no-repeat;
 	background-size: cover;
 	background-position: center;
 }
@@ -137,7 +163,7 @@ footer
 
 footer table
 {
-	width: 100%;
+	width: 96%;
 	margin: 0 auto;
 	padding: 1% 2%;
 	table-layout: fixed;
