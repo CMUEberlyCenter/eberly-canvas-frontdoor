@@ -19,11 +19,16 @@ a
 	text-decoration: none;
 	color: inherit;
 	transition: all .2s ease;
+	border-bottom: 1px dotted #999;
+	display: inline-block;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
 }
 
 a:hover
 {
 	color: #AF001F;
+	border-color: inherit;
 }
 
 /* NAV STYLES */
@@ -37,15 +42,9 @@ nav > table
 	text-align: right;
 }
 
-.banner
-{
-	height: 400px;
-	position: relative;
-}
-
 .announcement
 {
-	padding: 0 30px 10px 30px;
+	padding: 30px 30px 20px 30px;
 	background: rgba(255,255,255,.8);
 	width: 40%;
 	margin: 0;
@@ -58,6 +57,8 @@ nav > table
 h5
 {
 	color: #303030;
+	font-size: 1.8em;
+	margin: 0 0 10px 0;
 }
 
 
@@ -93,16 +94,61 @@ li
 
 #home-banner
 {
-	background-image: url(../images/test-banner.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.15)),
+										url(../images/test-banner.jpg);
 	background-size: cover;
-	background-position: 50%
+	background-position: 50%;
+	height: 400px;
+	position: relative;
 }
 
 /* MAIN */
 
+.banner
+{
+	width: 100%;
+	padding: 3% 5%;
+	color: white;
+	text-align: center;
+	background: rgba(128, 0, 0, .88);
+}
+
 section
 {
 	padding: 2%;
+}
+
+#intro h4
+{
+	color: rgba(128, 0, 0, .88);
+}
+
+#help-summary
+{
+	padding-top: 4%;
+	text-align: center;
+	background-color: #f3f3f3;
+}
+
+#help-summary table
+{
+	table-layout: fixed;
+}
+
+#help-summary td
+{
+	vertical-align: top;
+}
+
+#help-summary i
+{
+	font-size: 3em;
+	color: rgba(128, 0, 0, .88);
+}
+
+#help-summary p
+{
+	color: #555;
 }
 
 #contact-info
