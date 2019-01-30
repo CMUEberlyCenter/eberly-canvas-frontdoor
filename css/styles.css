@@ -92,10 +92,14 @@ li
 	display: inline-block;
 }
 
+#cmu-logo a{
+	border: none;
+}
+
 #home-banner
 {
 	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.15)),
-										url(../images/test-banner.jpg);
+										url(../images/banner.jpg);
 	background-size: cover;
 	background-position: 50%;
 	height: 400px;
